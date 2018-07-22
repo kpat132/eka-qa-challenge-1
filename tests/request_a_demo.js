@@ -3,7 +3,7 @@ let url = globals.url;
 
 module.exports = {
 
-  'user enters email': (browser) => {
+  'User enters email, Modal pops up': (browser) => {
   return browser
   .url(url)
   .setValue('input[name="email2"]','krishna3a@yahoo.com') //Fill the newsletter input field with the email
