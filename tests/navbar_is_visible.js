@@ -10,7 +10,5 @@ module.exports = {
     .waitForElementVisible('.services-link',10000)
     .waitForElementVisible('.company-link',10000)
     .waitForElementVisible('#nav-contact-us',10000)
-    .click('#nav-contact-us')
-    .pause(10000)
   }
 }
