@@ -6,11 +6,10 @@ module.exports = {
   'user enters email': (browser) => {
   return browser
   .url(url)
-  .setValue('input[name="email2"]','krishna3a@yahoo.com')
-  .click('button[type="submit"')
+  .setValue('input[name="email2"]','krishna3a@yahoo.com') //Fill the newsletter input field with the email
+  .click('button[type="submit"')    //submit information
   .pause(1000)
-  .waitForElementVisible('#joinListModal',1000)
-
+  .waitForElementVisible('#joinListModal',10000)  //id joinlistmodal shows up and should be visible.
   end();
   }
 }
